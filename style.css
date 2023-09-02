@@ -43,6 +43,8 @@ html {
 header {
     background-color: #4e53d4;
     height: 90px;
+
+
 }
 
 /* header flex é respnsável pela organização dos componetes do header deixa na horizontal */
@@ -60,6 +62,7 @@ header {
 
     justify-content: space-evenly;
     width: 350px;
+
 
 
 }
@@ -204,11 +207,11 @@ button {
 }
 
 /* Vamos realizar a criação dos cards da mains */
-
+/* Plano de fundo da oferatas bloco01 */
 .background-ofertas {
     background-color: #5bdbf5;
     height: 900px;
-    background-image: linear-gradient(219deg, rgba(91, 219, 245, 0.60) -0%, #5BDBF5 40.00%, #56A6E8 70.00%, #F5B945 100%);
+    background-image: linear-gradient(219deg, rgba(91, 219, 245, 0.60) -0.58%, #5BDBF5 36.55%, #56A6E8 49.81%, #F5B945 70.71%);
     background-position: center;
     background-size: cover;
 
@@ -221,4 +224,258 @@ button {
     text-align: center;
     padding: 25px;
 
+}
+
+.background-ofertas .news-title {
+    color: white;
+    font-family: 'font-titulo-bold';
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 25px;
+    letter-spacing: 1px;
+
+}
+
+.background-ofertas .news-paragrafo {
+
+    color: white;
+    font-family: 'font-paragrafo-bold';
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* Realizar estilização dos Cards */
+.news-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card {
+    background-image: linear-gradient(315deg, #5BDBF5 0%, rgba(124, 208, 225, 0.36) 53.27%, #FFF 100%);
+    width: 300px;
+    height: 335px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-right: 55px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+
+}
+
+.card:hover {
+    box-shadow: 15px 0px 35px;
+
+}
+
+/* Reealiza estilização dos componentes dentro dos cards */
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 335px;
+    padding: 6px;
+}
+
+/* Reealiza estilização do h2 dentro dos cards */
+.info-card h2 {
+    font-family: 'font-titulo-bold';
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 26px;
+
+}
+
+/* Reealiza estilização do p dentro dos cards */
+.info-card p {
+    font-family: 'font-paragrafo-bold';
+    font-weight: bold;
+    color: white;
+    text-align: justify;
+
+
+}
+
+/* Realiza estilização do padding no h2 e p */
+.info-card h2 p {
+    padding: 10px;
+
+}
+
+/* Vamos iniciar as estilizações do Footer */
+
+footer {
+    background: linear-gradient(289deg, #7BABC3 12.82%, #F6BA45 57.3%, #F6BA45 100%);
+
+
+
+}
+
+/* Usando para definir altura e largura, e também utilizado para posicionar os elementos no Footer-flex */
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 581px;
+    width: 100%;
+
+
+
+}
+
+/* Definir estilo do itens */
+article h1,
+h4 {
+    color: white;
+    font-family: 'font-titulo-bold';
+    font-size: 20px;
+
+
+}
+
+
+
+/* Realiza estilização do box-01, utilizando propriedades de alinhamento e estilizando o paragrafo  */
+.box-01 {
+    width: 180px;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    font-family: 'font-paragrafo-bold';
+    font-size: 15px;
+
+}
+
+/* Realiza o espaçamento do icons dentro da box-01 */
+.midia-box-footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 180px;
+    padding-top: 20px;
+
+}
+
+.box-02 ul {
+    list-style: none;
+    height: 100px;
+    font-family: 'font-paragrafo-bold';
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.box-02 li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.box-02 li a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+
+
+/* Definindo padrão do texto do titulo de contatos */
+
+
+.box-03 h4 {
+    color: white;
+    font-family: 'font-titulo-bold';
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.box-03 p {
+    color: black;
+    font-family: 'font-paragrafo-bold';
+    font-size: 15px;
+
+}
+
+.input-gradient {
+
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    background-image: linear-gradient(90deg, #BAC 0%, #D9D9D9 100%);
+
+
+
+}
+
+.box-04 button{
+    height: 40px;
+    width: 144px;
+    background: #F5B945;
+    font-family: 'font-titulo-bold';
+    border-radius: 8px;
+    font-size: 24px;
+    color: black;
+    
+
+}
+
+.box-04 .input-gradient input {
+    color: white;
+    background: transparent;
+    width: 144px;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding-left: 16px;
+    /* Retira a borda quando clica */
+    outline: none;
+
+
+}
+
+
+
+.input-gradient{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+    
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    height: 46px;
+
+}
+/* Align-self alinha o item como sendo unico */
+.footer-bottom a{
+    align-self: flex-end;
+}
+
+/* Pseudo class para chamar o atributo */
+.box-04 input::placeholder {
+    color: black;
+    font-family: 'font-paragrafo-bold';
+    font-size: 15px;
+
+}
+/* Alinha somente um item */
+.copyright{
+    color: black;
+    font-family: 'font-paragrafo-bold';
+    align-self: center;
 }
