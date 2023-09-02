@@ -1,2 +1,2 @@
-# Sena-shoes-Guilherme
-Criado site com orientação do professor Guilherme.
+# Senai-Shoes
+Criei este site de sapatos com protótipo do figma e trello em conjunto com o professor Guilherme.
