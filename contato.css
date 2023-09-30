@@ -1,32 +1,57 @@
 /* Estilização do formulario da sapataria */
 
-.contorno-form{
-    display: flex;
-    justify-content: center;
+@font-face {
+    font-family: 'font-paragrafo-bold';
+    src: url(assets/fonts/static/Inter-Bold.ttf);
 }
 
-.form-flex{
-    display: flex;
-    justify-content: center;
-     width: 30%;
-     
+@font-face {
+    font-family: 'font-titulo-bold';
+    src: url(assets/fonts/TitilliumWeb-Bold.ttf);
+}
 
+/* reset da pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+    background-color: #fffafa;
+    /* Estilizar com vh fica melhor para dimensão da tela */
+    height: 92vh;
     
 }
 
-.info-flex{
+.titulo-forms{
     display: flex;
     flex-direction: column;
-   
-     
- 
-
-}
-
-.info-flex label{
-    display: flex;
-    
-    justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
+    margin-top: 30px;
+        
 }
 
+.titulo-forms h1{
+    font-family: font-titulo-bold;
+    font-weight: 20px;
+    font-size: 40px;
+    letter-spacing: 2px;
+
+
+    
+}
+
+
+.titulo-forms p{
+    font-family: font-paragrafo-bold;
+    font-weight: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+
+    
+}
