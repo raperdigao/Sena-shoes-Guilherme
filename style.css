@@ -59,9 +59,10 @@ header {
 /* realiza o espaçamento dos links e deixa os mesmos na horizontal */
 .nav-links {
     display: flex;
+    
 
     justify-content: space-evenly;
-    width: 350px;
+    width: 550px;
 
 
 
@@ -479,3 +480,4 @@ h4 {
     font-family: 'font-paragrafo-bold';
     align-self: center;
 }
+
