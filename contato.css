@@ -19,39 +19,131 @@
 
 }
 
-main{
+main {
     background-color: #fffafa;
     /* Estilizar com vh fica melhor para dimensão da tela */
     height: 92vh;
-    
+    background-image: url(assets/img/eric-masur-AEyam8UN6NY-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.titulo-forms{
+.titulo-forms {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 30px;
-    margin-top: 30px;
-        
+    /* padding-bottom: 30px;
+    margin-top: 30px; */
+
 }
 
-.titulo-forms h1{
+.titulo-forms h1 {
     font-family: font-titulo-bold;
     font-weight: 20px;
     font-size: 40px;
     letter-spacing: 2px;
+    color: #fffafa;
 
 
-    
+
 }
 
 
-.titulo-forms p{
+.titulo-forms p {
     font-family: font-paragrafo-bold;
     font-weight: 10px;
     font-size: 20px;
     letter-spacing: 2px;
+    color: #fffafa;
+}
+
+/* Estilizando o contorno fieldset */
+
+.contorno-form legend {
+    font-family: font-titulo-bold;
+    font-weight: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
 
 
+}
+
+
+
+/* Estilizando o que esta dentro do contorno */
+.contorno-form {
+    height: 60vh;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: font-paragrafo-bold;
+    padding-left: 5px;
+    /* border: 2px solid purple; */
+    border-radius: 8px;
+    color: #fffafa;
+
+
+
+}
+
+/* Deixar o formulario no centro */
+.form-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
     
+    height: 80vh;
+    
+    
+
+
+}
+
+.info-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    
+}
+
+
+.info-flex label {
+    margin-top: 8px;
+}
+
+.info-flex input {
+    border-radius: 8px;
+    height: 15vh;
+    padding-left: 6px;
+}
+
+.info-flex select {
+    border-radius: 8px;
+    height: 15vh;
+    padding-left: 6px;
+
+}
+
+.info-flex textarea {
+    border-radius: 8px;
+    height: 60vh;
+    padding-left: 6px;
+    padding-top: 6px;
+
+}
+
+.info-flex button{
+    border-radius: 8px;
+    height: 20vh;
+    padding-left: 6px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #fffafa;
+    font-family: font-titulo-bold;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 2px;
+
 }
